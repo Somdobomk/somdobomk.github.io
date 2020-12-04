@@ -1,0 +1,137 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: David Zapico
+title: Network System Administrator
+email: davidzapicojr@gmail.com
+website: somdobomk.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: facespics
+github_username:  somdobomk
+linkedin_username: davidzapicojr
+stackoverflow_username: somdobomk
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's David and I'm a resourceful system administrator consistently responding to a wide range of technical challenges with a focused and creative approach. Highly effective at problem solving and decision making. 
+
+  I am currently learning: <mark>HTML</mark>, <mark>CSS</mark>, <mark>JavaScript</mark>, <mark>Jekyll</mark> and <mark>git</mark>.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Modern Resume Theme
+        link: github.com/Somdobomk/modern-resume-theme
+        # link_text: Project Website
+        additional_links:
+          - title:  somdobomk/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/Somdobomk/modern-resume-theme
+          # - title:  Github page for project (eg. somdobomk/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. somdobomk.github.io/modern-resume-theme)
+        quote: >
+          A modern simple static resume template and theme. Powered by Jekyll and GitHub Pages.
+        description: | # this will include new lines to allow paragraphs
+          This is a <mark>Jekyll</mark> theme that I found on GitHub and tailored it to my liking. This project has allowed me to use what I've been learning. It is my first open source project and hopefully it will be helpful for people as I learned from this myself. 
+          
+      - layout: top-middle
+        title: Modern One Page Website
+        link: somdobomk.github.io
+        # link_text: Project Website
+        additional_links:
+          - title:  somdobomk/modern-one-page-website
+            icon: fab fa-github
+            url: github.com/Somdobomk/somdobomk.github.io
+          # - title:  Github page for project (eg. somdobomk/somdobomk.github.io)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. somdobomk.github.io/somdobomk.github.io)
+        quote: >
+          A simple modern one page website.
+        description: | # this will include new lines to allow paragraphs
+          This is my second open source project which is a simple modern one page website that allowed me to try to build something on my own without the use of tutorials.  
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Crossland Oilfield Services
+        link: crosslandoilfieldservices.com
+        # link_text: boringcompany.com
+        sub_title: Network System Administrator
+        caption: Jun 2017 - Jun 2020
+        #quote: >
+         # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Every company needs its networks properly administered and Crossland Oilfield Services is no exception. 
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ITT Technical Institute
+        caption: 2012 - 2016
+        sub_title: Cyber Security, Network Adminstration
+        #quote: >
+         # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          During my time at ITT Tech I learned most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I enjoyed my time at university and learned a lot about a healthy work life balance.
+
+          I spent a lot of my time learning how to keep a healthy work life balance working 2 hours away from home in the oilfield and being able to travel back to school and be on time.
+
+  - title: When I'm Not Studying
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      When I'm not sat at my desk learning web development I will be enjoying one of my many other hobbies which include woodworking, auto mechanic, kayak bass fishing, trail biking,  grilling/smoking bbq, pc gaming, tinkering with Linux home lab, or practicing for typing speed. Currently I have a max wpm of 120 and an avg of 90 when I'm not in a rush. 
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+#theme: modern-resume-theme
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
