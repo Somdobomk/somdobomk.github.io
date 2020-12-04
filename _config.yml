@@ -74,7 +74,7 @@ content:
           
       - layout: top-middle
         title: Modern One Page Website
-        link: somdobomk.github.io
+        link: github.com/Somdobomk/modern-one-page-website
         # link_text: Project Website
         additional_links:
           - title:  somdobomk/modern-one-page-website
